@@ -4,7 +4,6 @@ const inputHigh = prompt('Please provide a number');
 // Convert the input to a number
 const highNumber = parseInt(inputHigh);
 
-
 if (highNumber) {
   // Use Math.random() and the user's number to generate a random number
   const randomNumber = Math.floor( Math.random() * highNumber ) + 1;
@@ -14,8 +13,3 @@ if (highNumber) {
 } else {
   console.log('You need to provide a number. Try again.');
 }
-
-
-
-
-
